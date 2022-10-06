@@ -3,7 +3,6 @@ public class Employee {
     In this class after private fields
     'Contructer, Setters, Getters and Methods' are created
      */
-
     private String name;
     private double salary;
     private int workHours;
