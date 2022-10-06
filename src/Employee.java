@@ -87,7 +87,7 @@ public class Employee {
 
     // I suppoesed that raiseSalary method calculates only
     // the amount which will be added to first salary.
-    // The net salary will be sum of salary and raiseSalary
+    // The net salary will be sum of salary, bonuses and raiseSalary minus tax
 
     public double raiseSalary() {
         int workYears = 2021 - hireYear;
@@ -117,7 +117,7 @@ public class Employee {
                 ",\n taxes=" + tax() +
                 ",\n bonuses=" + bonus() +
                 ",\n raise of salary=" + raiseSalary() +
-                ",\n NET SALARY =" + (salary +bonus()+raiseSalary())+
+                ",\n NET SALARY =" + (salary +bonus()+raiseSalary()-tax())+
                 '}';
     }
 }
