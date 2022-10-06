@@ -117,7 +117,7 @@ public class Employee {
                 ",\n taxes=" + tax() +
                 ",\n bonuses=" + bonus() +
                 ",\n raise of salary=" + raiseSalary() +
-                ",\n NET SALARY (salary+bonuses+raise-tax) =" + (salary +bonus()+raiseSalary()-tax())+
+                ",\n NET SALARY (salary+bonuses+raise-tax) = " + (salary +bonus()+raiseSalary()-tax())+
                 '}';
     }
 }
